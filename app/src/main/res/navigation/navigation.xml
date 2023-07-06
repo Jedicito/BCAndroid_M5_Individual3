@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentNombre">
+
+    <fragment
+        android:id="@+id/fragmentNombre"
+        android:name="chl.ancud.m5_individual3.FragmentNombre"
+        android:label="fragment_nombre"
+        tools:layout="@layout/fragment_nombre" >
+        <action
+            android:id="@+id/action_fragmentNombre_to_fragmentTrivia"
+            app:destination="@id/fragmentTrivia" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTrivia"
+        android:name="chl.ancud.m5_individual3.FragmentTrivia"
+        android:label="fragment_trivia"
+        tools:layout="@layout/fragment_trivia" >
+        <action
+            android:id="@+id/action_fragmentTrivia_to_fragmentResultado"
+            app:destination="@id/fragmentResultado" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentResultado"
+        android:name="chl.ancud.m5_individual3.FragmentResultado"
+        android:label="fragment_resultado"
+        tools:layout="@layout/fragment_resultado" >
+        <action
+            android:id="@+id/action_fragmentResultado_to_fragmentTrivia"
+            app:destination="@id/fragmentTrivia" />
+    </fragment>
+</navigation>
