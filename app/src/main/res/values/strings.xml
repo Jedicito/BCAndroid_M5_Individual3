@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">M5_Individual3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txv_nombre">Ingresa tu nombre</string>
+    <string name="etx_nombre">Nombre</string>
+    <string name="btn_siguienteNombre">Siguiente</string>
+    <string name="txv_nombreTrivia">Hola </string>
+    <string name="txv_preguntaTrivia">¿Cuál es este pokemón?</string>
+    <string name="radioButton1">Charmander</string>
+    <string name="radioButton2">Pikachu</string>
+    <string name="radioButton3">Squirtle</string>
+    <string name="radioButton4">Bulbasaur</string>
+    <string name="btn_seguirTrivia">Comprobar</string>
+    <string name="txv_resultadoPositivo">¡Acertaste!</string>
+    <string name="txv_resultadoNegativo">¡Fallaste! Prueba otra vez</string>
+</resources>
